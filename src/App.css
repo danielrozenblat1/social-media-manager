@@ -1,0 +1,7 @@
+@import url("./fonts/fonts.css");
+body {
+    background-image: url('./images/woodClear.jpg');
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+  }

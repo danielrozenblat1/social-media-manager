@@ -1,0 +1,320 @@
+
+  
+.continer{
+display: flex;
+flex-direction: column;
+width:90%;
+}
+
+.image{
+width:25vw;
+object-fit: contain;
+
+margin:0 auto;
+}
+.slogen{
+    font-family: "Heebo";
+    direction: rtl;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+.b{
+    font-family: "Heebo";
+    direction: rtl;
+    font-size: 5rem;
+    text-align: center;
+    display: inline;
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.below{
+    font-family: "Heebo";
+    direction: rtl;
+    font-size: 2rem;
+    margin:5% auto;
+    text-align: center;
+}
+@media only screen and (max-width: 350px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:45vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.3rem;
+            text-align: center;
+        
+       
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2.0rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:45vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size:1.5rem;
+            text-align: center;
+        
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2.5rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+        .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        .image{
+        width:40vw;
+        object-fit: contain;
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2.5rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.5rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:40vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2rem;
+            text-align: center;
+        
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 3.5rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.5rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:40vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2.5rem;
+            text-align: center;
+        
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 4rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.5rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+@media only screen and (min-width: 750px) and (max-width: 850px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:45vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2.5rem;
+            text-align: center;
+        
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 4rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 1.5rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
+@media only screen and (min-width: 850px) and (max-width: 950px) {
+    .continer{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        }
+        
+        .image{
+        width:35vw;
+        object-fit: contain;
+        
+        margin:0 auto;
+        }
+        .slogen{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 3rem;
+            text-align: center;
+        
+        }
+        .b{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 4rem;
+            text-align: center;
+            display: inline;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+        
+        }
+        .below{
+            font-family: "Heebo";
+            direction: rtl;
+            font-size: 2rem;
+            margin:5% auto;
+            text-align: center;
+        }
+}
