@@ -1,7 +1,24 @@
  import OnMe from "../components/OnMe"
  import styles from "./ThirdScreen.module.css"
  import social from "../images/social.png"
+import { useEffect } from "react"
+import ScrollReveal from "scrollreveal"
  const ThirdScreen=()=>{
+
+  useEffect(()=>{
+    ScrollReveal().reveal(`.${styles.title}`, {
+      duration: 1000,
+      distance: "30px",
+      origin: "top", // Start from the right side
+      easing: "ease-in-out",
+      reset:false,
+      viewFactor: 0.2,
+      interval: 100, // Delay between each element
+      delay: 200, // Delay before the animation starts
+      scale: 1, // Set scale to 1 or null
+
+    });
+  },[])
  return <>
 
 

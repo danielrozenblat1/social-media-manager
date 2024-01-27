@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTimer } from 'react-timer-hook';
 import styles from "./CountDown.module.css"
-import course from "../images/צילום.png"
+import course from "../images/course-camera.png"
 const Countingdown = ({ expiryTimestamp }) => {
   const {
     seconds,
